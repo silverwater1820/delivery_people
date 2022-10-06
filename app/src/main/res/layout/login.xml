@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     
@@ -14,7 +15,8 @@
             android:src="@drawable/close"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:contentDescription="@string/todo">
         </ImageButton>
 
         <TextView
@@ -60,9 +62,8 @@
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:background="@drawable/login"
-            android:text="로그인"
-            android:textFontWeight="600"
-            android:fontFamily="@font/bmhanna_11yrs"
+            android:text="@string/login"
+            android:fontFamily="@font/bmhanna_air"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginTop="25dp"
@@ -79,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="아이디 찾기"
+                android:text="@string/find_id"
                 android:fontFamily="@font/font_hannaair"
                 android:textSize="18sp">
 
@@ -96,7 +97,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="비밀번호 찾기"
+                android:text="@string/find_password"
                 android:fontFamily="@font/font_hannaair"
                 android:textSize="18sp"
                 android:layout_marginStart="15dp">
@@ -112,10 +113,8 @@
                 android:layout_width="350dp"
                 android:layout_height="35dp"
                 android:background="@drawable/white"
-                android:text="페이스북으로 로그인"
-                android:drawableLeft="@drawable/facebook_resize"
-                android:paddingStart="100dp"
-                android:drawablePadding="-100dp"
+                android:text="@string/login_facebook"
+                android:drawableStart="@drawable/facebook"
                 android:textSize="15sp"
                 android:fontFamily="@font/font_hannaair"
                 android:textStyle="bold">
@@ -125,23 +124,20 @@
                 android:layout_height="35dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/white"
-                android:text="네이버로 로그인"
-                android:drawableLeft="@drawable/naver_resize"
-                android:paddingStart="110dp"
-                android:drawablePadding="-110dp"
+                android:text="@string/login_naver"
+                android:drawableStart="@drawable/naver"
                 android:textSize="15sp"
                 android:fontFamily="@font/font_hannaair"
-                android:textStyle="bold">
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry">
             </androidx.appcompat.widget.AppCompatButton>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="350dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/white"
-                android:text="apple로 로그인"
-                android:drawableLeft="@drawable/apple_resize"
-                android:paddingStart="110dp"
-                android:drawablePadding="-110dp"
+                android:text="@string/login_apple"
+                android:drawableStart="@drawable/apple"
                 android:textSize="15sp"
                 android:fontFamily="@font/font_hannaair"
                 android:textStyle="bold">
@@ -157,14 +153,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="혹시, 배달의민족이 처음이신가요? "
+                    android:text="@string/first_visit"
                     android:fontFamily="@font/font_hannaair"
                     android:textSize="15sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="회원가입"
+                    android:text="@string/sign_in"
                     android:textColor="@color/bm"
                     android:fontFamily="@font/font_hannaair"
                     android:textSize="15sp">

@@ -8,4 +8,13 @@
     <string name="bm_bmstore">배민스토어</string>
     <string name="bm_shopping_live">쇼핑라이브</string>
     <string name="bm_zzim_advice">자주 찾는 상품을 찜 해보세요</string>
+    <string name="login_naver">네이버로 로그인</string>
+    <string name="login_apple">apple로 로그인</string>
+    <string name="login_facebook">페이스북으로 로그인</string>
+    <string name="login">로그인</string>
+    <string name="todo">TODO</string>
+    <string name="find_id">아이디 찾기</string>
+    <string name="find_password">비밀번호 찾기</string>
+    <string name="first_visit">혹시, 배달의민족이 처음이신가요?</string>
+    <string name="sign_in">회원가입</string>
 </resources>
