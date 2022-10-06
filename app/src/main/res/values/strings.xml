@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">delivery_people</string>
+    <string name="id_email">아이디 또는 이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="bm_zzim">찜</string>
+    <string name="bm_delivery_package">배달/포장</string>
+    <string name="bm_b_mart">B마트</string>
+    <string name="bm_bmstore">배민스토어</string>
+    <string name="bm_shopping_live">쇼핑라이브</string>
+    <string name="bm_zzim_advice">자주 찾는 상품을 찜 해보세요</string>
+</resources>
