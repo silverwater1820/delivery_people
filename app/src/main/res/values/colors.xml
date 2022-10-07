@@ -11,4 +11,12 @@
     <color name="transparent">#00000000</color>
     <color name="gray">#898989</color>
     <color name="bm_gray">#f6f6f6</color>
+    <color name="gray_1">#b1b3b5</color>
+    <color name="gray_2">#d7d7d7</color>
+    <color name="grat_3">#f3f5f7</color>
+    <color name="gray_4">#f3f3f3</color>
+    <color name="gray_5">#888888</color>
+    <color name="black_2">#444444</color>
+    <color name="bm_orange">#ef8a33</color>
+    <color name="gray_6">#595959</color>
 </resources>

@@ -17,4 +17,19 @@
     <string name="find_password">비밀번호 찾기</string>
     <string name="first_visit">혹시, 배달의민족이 처음이신가요?</string>
     <string name="sign_in">회원가입</string>
+    <string name="coupon_pack">쿠폰함</string>
+    <string name="coupon_code_input">쿠폰번호를 입력해주세요</string>
+    <string name="coupon_register">쿠폰등록</string>
+    <string name="having_coupon_number">보유쿠폰 4장</string>
+    <string name="price1">4,000원</string>
+    <string name="price2">1,000원</string>
+    <string name="coupon_name_1">배스킨라빈스 VIP 쿠폰</string>
+    <string name="coupon_name_2">10월 배달의 민족 월간 쿠폰</string>
+    <string name="minmum_price_1">최소주문금액 13,500원</string>
+    <string name="minmum_price_2">최소주문금액 15,000원</string>
+    <string name="coupon_dateofuse_1">사용기간 2022.10.01~01 - 202210.31</string>
+    <string name="coupon_type_1">배달</string>
+    <string name="coupon_type_2">포장/방문</string>
+    <string name="coupon_type_3">프랜차이즈</string>
+
 </resources>
